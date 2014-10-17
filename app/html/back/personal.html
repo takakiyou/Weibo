@@ -1,0 +1,14 @@
+<div class="header"><a href="#/circul"><img ng-src="../img/users/{{imgUrl}}">{{id}}</a>&nbsp;&nbsp;<a href="#/follow">+follow</a>&nbsp;&nbsp;</div>
+  <div class="personal">
+    <form ng-submit="saveMe()">
+  	  <a href="#/users/{{user.id}}"><img ng-src="../img/users/{{imgUrl}}"></a>
+  	  <a>{{id}}</a>
+      <div class="personalbaseInfo" >
+        <input ng-model="gender" class="content">
+        <input ng-model="address" class="content">
+        <input ng-model="telephone" class="content">
+        <input ng-model="habit" class="content">
+        <button type="submit">Save</button>
+     </div>
+    </form>
+  </div>

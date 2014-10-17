@@ -1,0 +1,219 @@
+/* Golbal变量 */
+/* basic styling */
+@import url("base.css");
+
+
+html, body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: white;
+  background-color: rgba(18, 18, 18, 0.66);
+}
+.header {
+  position: static;
+  background-color: rgba(18, 18, 18, 0.66);
+  color: #ffffff;
+  text-align: right;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.header a {
+  color: #ffffff;
+}
+
+.header img {
+margin-right: 5px;
+height: 20px;
+width: 20px;
+border: 1px solid #ffffff;
+}
+/* circul page CSS*/
+div.says {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-top: 15px;
+}
+ul {
+  color: #FFFFFF;
+  background-color: rgba(18, 18, 18, 0.66);
+  list-style-type: none;/* 无列表头符号 */
+  padding: 0;
+}
+
+div.says img {
+  float: left;
+  height: 100px;
+  width: 100px;
+  margin: 15px;
+  border: 1px solid #ffffff;
+}
+/* 鼠标移到图片上方图片边框显示 hover:上空 */
+a:hover img {
+    border: 1px solid #000000;
+}
+
+div.text {
+  color: #E5EEF3;
+  height: 75px;
+  margin: 5px;
+  overflow: auto;
+}
+
+div.time {
+  font-size: 12px;
+}
+.circul {
+  border: 2px dotted #14FD00;
+  border-radius: 0; /* 边框圆角弧度 */
+  display: block;
+  height: 133px;
+  margin: 10px 10px;
+} 
+/* 右对齐距离右边框15px */
+.right_15P {
+  float: right;
+  margin-right: 30px;
+}
+
+div.post {
+  height: 125px;
+  padding: 0;
+  margin: 10px auto;
+  display: block;
+  background-color: rgba(18, 18, 18, 0.66);
+}
+
+div.post textarea {
+  border: 2px dotted #14FD00;
+  background-color: rgba(18, 18, 18, 0.66);
+  border-radius: 0;
+  float: left;
+  height: 120px;
+  width: 30em;
+  padding: 0.5em;
+  margin-left: 10px;
+  color: white;
+}
+
+div.post button {
+  border: 0;
+  background-color: #14FD00;
+  border-radius: 0;
+  margin-left: 20px;
+  color: rgba(18, 18, 18, 0.66);
+  font-size: 2em;
+  height: 120px;
+  width: 120px;
+}
+/* login page CSS */
+div.login {
+  color: #ffffff;
+  font-size: 2em;
+}
+div.dot {
+  background-image: url("img/dot.png");
+  height: 198px;
+  width: 619px;
+  margin: 0 auto;
+  }
+
+/*div.input {
+    border: 2px solid #000000;
+
+  }*/
+div.input input {
+  border: 1px dotted black;
+  border-radius: 0;
+  text-align: center;
+  font-size: 1em;
+  margin: 10px auto;
+  color: #ffffff;
+  display: block;
+  height: 111px;
+  background-image: url("img/login_input.png");
+}
+div.input button {
+  border: 1px dotted black;
+  background-color: #5B7189;
+  border-radius: 0;
+  display: block;
+  margin: 10px auto;
+  margin-right: 7em;
+  color: #ffffff;
+  font-size: 1em;
+  height: 120px;
+  width: 120px;
+}
+/* 关注页面 */
+
+.follow {
+  border: 2px solid;
+  border-radius: 0; /* 边框圆角弧度 */
+  display: block;
+  height: 130px;
+  /* padding-top: 10px; */
+  margin: 10px auto;
+  width: 600px;
+}
+.follow img {
+  float: left;
+  margin: 15px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #ffffff;
+}
+.habit {
+  color: rgb(30, 177, 30);
+}
+/* 个人信息修改页面 */
+/*.personal {
+
+}*/
+.personal img {
+  float: left;
+  margin: 5px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #ffffff;
+}
+div.personalbaseInfo {
+  margin-top: 150px;
+}
+.personalbaseInfo input {
+  display: block;
+  margin: 12px auto;
+  height: 70px;
+  width: 500px;
+  background-color: #FECB3E;
+  border: 2px solid #ffffff;
+  border-radius: 0;
+  text-align: center;
+ font-size: 1.5em;
+}
+.content {
+  font-size: 1.5em;
+  color: #000000;
+
+}
+.personalbaseInfo button {
+  border: 3px solid black;
+  background-color: #000000;
+  border-radius: 100px;
+  display: block;
+  margin: 10px auto;
+  margin-right: 7em;
+  color: #ffffff;
+  font-size: 2em;
+  height: 120px;
+  width: 120px;
+}
+.frame {
+  height: 150px;
+  margin-top: 10px;
+}
+.serach {
+  border:1px solid white;
+  border-radius: 5px;
+  color: black;
+}

@@ -1,0 +1,27 @@
+<div class="header">
+  <a href="#/circul"><img ng-src="img/users/{{imgUrl}}">{{id}}</a>&nbsp;&nbsp;<a href="#/personal">Setting</a>&nbsp;&nbsp;
+</div>
+<div>
+  <ul>
+  <li ng-repeat="follow in follows" class="frame" ng-controller="checkCtrl">
+      <div class="follow">
+   	    <div class="baseInfo">
+          <a href="#/personal/{{follow.id}}"><img ng-src="img/users/{{follow.imgUrl}}"></a>
+          <a>{{follow.id}}</a>
+        <div>
+          {{follow.gender | genderCheck}}
+        </div>
+        <div>
+          <label>{{follow.address}}</label>
+        </div>
+        <div class="habit">{{follow.habit}}</div>
+      </div>
+       <div class="checkboxFour">
+            <input type="checkbox" id="checkboxOneInput{{follow.id}}" ng-model="follow.flag"/>
+            <label for="checkboxOneInput{{follow.id}}"></label>
+      </div>
+      </div>      
+      </div>
+   </li>
+  </ul>
+</div>

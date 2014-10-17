@@ -1,0 +1,17 @@
+<div class="header"><a href="#/personal"><img ng-src="img/users/{{me.imgUrl}}">Setting</a>&nbsp;&nbsp;<a href="#/login">Close</a>&nbsp;&nbsp;</div>
+<div class="says">
+<div class="post">
+<form ng-submit="processForm(user)">
+<textarea ng-model="user.talk"></textarea>
+<button type="submit">Says</button>
+</form>
+</div>
+<ul>
+   <li ng-repeat="cir in circul" class="circul">
+   	  <a href="#/circul"><img ng-src="img/users/{{cir.imgUrl}}"></a>
+   	  <a >{{cir.id}}</a>
+     <div class="text">{{cir.says}}</div>
+     <div class="time"><a class="right_15P">{{cir.time}}</a></div>
+   </li>
+</ul>
+</div>
